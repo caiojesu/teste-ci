@@ -1,7 +1,7 @@
 name: ci-flutter-test
 on: [push]
 jobs:
-  build:
+  check-application:
     runs-on: ubuntu-latest
 
     steps:
